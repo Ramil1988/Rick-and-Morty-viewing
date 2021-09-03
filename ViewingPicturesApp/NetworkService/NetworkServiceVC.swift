@@ -25,7 +25,6 @@ final class NetworkService: NSObject {
             }
         }
     }
-    
 }
 
 
