@@ -5,7 +5,7 @@
 //  Created by Ramil Sharapov on 2021-08-31.
 //
 
-import UIKit
+import Foundation
 
 // MARK: - CharacterModel
 struct CharacterModel: Codable {
