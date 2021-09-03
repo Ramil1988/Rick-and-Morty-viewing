@@ -2,7 +2,7 @@
 //  CharacterModelVC.swift
 //  ViewingPicturesApp
 //
-//  Created by Ramil Sharapov on 2021-08-51.
+//  Created by Ramil Sharapov on 2021-08-31.
 //  
 
 import Foundation
