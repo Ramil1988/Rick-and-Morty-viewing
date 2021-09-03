@@ -111,7 +111,6 @@ class GeneralViewTVC: UITableViewCell {
         titleNameLabel.text = data.name
         statusLabel.text = data.status
         locationDescriptionLabel.text = data.location
-        
     }
     
     private func getImage(urlString: String) {

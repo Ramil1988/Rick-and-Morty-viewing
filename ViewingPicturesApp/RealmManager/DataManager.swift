@@ -37,7 +37,6 @@ class DataManager  {
             
             let model = GeneralTableViewCellModel(name: name, status: status, gender: gender, location: location, image: image)
             models.append(model)
-            
         }
         
         return models

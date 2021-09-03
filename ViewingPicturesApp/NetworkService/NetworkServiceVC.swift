@@ -23,9 +23,6 @@ final class NetworkService: NSObject {
             catch {
                 print("Ошибка парсинга данных")
             }
-            
-            
-            
         }
     }
     
