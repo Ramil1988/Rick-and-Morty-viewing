@@ -10,7 +10,7 @@ import Alamofire
 
 final class NetworkService: NSObject {
 
-    private let jsonUrl = "https://rickandmortyapi.com/api/character!"
+    private let jsonUrl = "https://rickandmortyapi.com/api/character"
     
     func getCharacterFromAF(completion: @escaping (CharacterModel) -> Void)  {
         AF.request(jsonUrl, method: .get).responseJSON { response in
