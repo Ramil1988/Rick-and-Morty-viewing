@@ -1,5 +1,5 @@
 # Rick-and-Morty-viewing
-Simple way to know about what is happening with the guys from this cartoon
+Simple way to know about what is happening with the guys from this cartoon.
 
 On the main screen you can see all characters with the current statuses each of them.
 
