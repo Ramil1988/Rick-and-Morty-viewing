@@ -54,12 +54,15 @@ class ViewController: UIViewController {
         networkService.getCharacterFromAF { model in
             let results = model.results
             var models = [GeneralTableViewCellModel]()
+          
+            for _ in 1...10 {
             
-            for result in results {
-                let model = GeneralTableViewCellModel(response: result)
-                models.append(model)
+                for result in results {
+                    let model = GeneralTableViewCellModel(response: result)
+                    models.append(model)
                 
-                DataManager().saveData(name: model.name, status: model.status, gender: model.gender, location: model.location, image: model.image)
+                    DataManager().saveData(name: model.name, status: model.status, gender: model.gender, location: model.location, image: model.image)
+                }
             }
             
             self.data = models
